@@ -16,6 +16,28 @@ const Page = () => {
                 </span>
               </Heading>
             </div>
+
+            <p className="text-base/7">
+              PingPanda is the easiest way to monitor your SaaS, Get instant
+              notification for{" "}
+              <span className=" font-semibold text-gray-700">
+                sales, new users, or any other event
+              </span>{" "}
+              sent directly to your Discord.
+            </p>
+
+            <ul className="space-y-2 text-base/7 text-gray-600 text-left flex flex-col items-center sm:items-start">
+              {[
+                "Real-time Discord alerts for critical events",
+                "Buy once, use forever",
+                "Track sales, new users, or any other event",
+              ].map((item, index) => (
+                <li key={index} className="flex gap-1.5 items-center text-left">
+            
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </MaxWidthWrapper>
       </section>
