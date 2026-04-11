@@ -1,6 +1,9 @@
 import { cn } from "@/utils"
 import { HTMLAttributes, ReactNode } from "react"
 
+/**
+ * HTMLAttrib
+ */
 interface HeadingProps extends HTMLAttributes<HTMLHeadingElement> {
   children?: ReactNode
 }
